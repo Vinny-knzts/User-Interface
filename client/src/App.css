@@ -1,0 +1,84 @@
+body {
+  background-color: #e3e3e3;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: smaller;
+}
+
+.main {
+  align-items: center;
+  height: 75vh;
+  justify-content: center;
+}
+
+.main,
+.profileBox,
+.profilePictureContainer,
+.buttonsContainer,
+.attributeContainer {
+  display: flex;
+}
+
+.profileBox,
+.buttonsContainer {
+  flex-direction: column;
+}
+
+.profilePictureContainer,
+.attributeContainer {
+  justify-content: space-between;
+}
+
+.profileBox {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: gray 0px 1.6px 3.6px 0px, gray 0px 0.3px 0.9px 0px;
+  padding: 20px;
+}
+
+.profilePicture {
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.buttonsContainer {
+  justify-content: space-evenly;
+}
+
+.optionsButton {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 3px;
+  width: 100px;
+}
+
+.optionsButton:hover {
+  background-color: #e3e3e3;
+  cursor: pointer;
+}
+
+.optionsButton:active {
+  background-color: lightgray;
+}
+
+.attributesBox {
+  width: 300px;
+}
+
+.attributeContainer {
+  height: 30px;
+  align-items: baseline;
+}
+
+.attributeName {
+  color: gray;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.biographyContainer,
+#biographyInput {
+  margin-top: 13px;
+}

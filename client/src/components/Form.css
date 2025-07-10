@@ -1,0 +1,32 @@
+#pictureInput {
+  display: none;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.pictureButtonContainer {
+  position: relative;
+}
+
+.pictureButton {
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+}
+
+.pictureButton:hover {
+  cursor: pointer;
+}
+
+#pictureSelectButtonContainer {
+  right: 120px;
+}
+
+#pictureRemoveButtonContainer {
+  right: 80px;
+}
